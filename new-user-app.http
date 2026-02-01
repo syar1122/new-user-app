@@ -1,0 +1,6 @@
+@new_user_app_HostAddress = http://localhost:5002
+
+GET {{new_user_app_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
